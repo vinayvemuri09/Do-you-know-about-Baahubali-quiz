@@ -13,12 +13,12 @@ console.log(chalk.blue("Welcome " + userName, ", your quiz will be here: "));
 var highScore = [
   {
     name: "PK",
-    score: 4,
+    score: 5,
   },
 
   {
     name: "AK",
-    score: 3,
+    score: 4,
   },
 ]
 
@@ -33,6 +33,10 @@ var questions = [{
   question: "How many parts are released? (Write number) ",
   answer: "2"
 },{
+  question: "Who played shivagami character? ",
+  answer: "Ramya Krishna"
+},
+{
   question: "Who played Ballaladeva character ",
   answer: "Rana"
 }];
